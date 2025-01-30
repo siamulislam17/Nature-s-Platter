@@ -17,13 +17,31 @@
 
     </style>
 </head>
-<body class="font-sora">
-    <header>
+<body class="font-sora px-3 md:px-24">
+    <header class="font-sora px-0 mx-0 md:px-24 bg-gradient-[#FFFFFFFF
+    to-[#EFEBE3FF]]"></header>>
         <!--nav bar-->
         <nav>
             <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <div class="dropdown">
+                <div class="navbar-start relative right-12">
+                 
+                  <a class="btn btn-ghost ml-0 lg:flex"><img src="c2-assets/logo-header.png" alt="" class="w-2/5  md:w-full"></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                   
+                    <li><a>Product</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Contact Us</a></li>
+
+                  </ul>
+                </div>
+                <div class="navbar-end gap-1">
+                  <a class="btn border-[#179800] text-[#111111] font-bold hidden md:flex">Log In</a>
+                  <a class="btn bg-[#179800] text-white font-bold hidden md:flex">Register</a>
+                </div>
+                <div class="dropdown">
+                    
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -38,34 +56,33 @@
                           d="M4 6h16M4 12h8m-8 6h16" />
                       </svg>
                     </div>
-                    
                     <ul
                       tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 absolute right-6 w-40 p-2 shadow">
                       <li><a>Product</a></li>
                       <li><a>Services</a></li>
                       <li><a>Contact Us</a></li>
 
                     </ul>
-                  </div>
-                  <a class="btn btn-ghost text-xl">daisyUI</a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                   
-                    <li><a>Product</a></li>
-                    <li><a>Services</a></li>
-                    <li><a>Contact Us</a></li>
 
-                  </ul>
-                </div>
-                <div class="navbar-end gap-1">
-                  <a class="btn border-[#179800] text-[#111111] font-bold">Register</a>
-                  <a class="btn bg-[#179800] text-white font-bold">Register</a>
-                </div>
+
+                    
+                  </div>
               </div>
         </nav>
+        <!-- banner -->
+
+        <section class="mt-20 text-center flex flex-col justify-center">
+            <h1 class="text-4xl md:text-6xl" >Freshness <span class="text-[#179800]">You Can <br>
+                Count</span> On, Prices You’ll Love!</h1>
+            <p class="text-2 mt-6 w-2/4 mx-auto">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+            <img src="c2-assets/hero-vegetables.png" alt="vegetable" class="w-1/2 mx-auto">
+        </section>
     </header>
+
+    <main>
+        
+    </main>
     
 </body>
 </html>
