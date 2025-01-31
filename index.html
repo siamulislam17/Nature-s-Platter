@@ -22,7 +22,7 @@
     <header class="font-sora px-3 md:px-36 mx-0 bg-[#f7f4f4]">
         <!--nav bar-->
         <nav>
-            <div class="navbar bg-base-100 bg-[#f7f4f4]">
+            <div class="navbar pt-5 bg-base-100 bg-[#f7f4f4]">
                 <div class="navbar-start relative right-12">
                  
                   <a class="btn btn-ghost ml-0 lg:flex"><img src="c2-assets/logo-header.png" alt="" class="w-2/5  md:w-full"></a>
@@ -294,22 +294,22 @@
 
         <section class="my-24 px-3 md:px-36">
             <h1 class="text-2xl text-[#179800]  md:text-4xl pt-24 pb-12">Arival Products</h1>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-7 w-full">
-                <div class="flex bg-[#115414] flex items-center rounded-xl">
-                    <div class="p-10 space-y-9">
-                        <img src="c2-assets/dawat-logo.png" alt="logo">
-                        <button class="bg-[#63B76D] text-white px-8 py-3">Cook Exotic Dishes</button>
+            <div class="grid grid-cols-1 md:grid-cols-7 gap-7 w-full">
+                <div class=" bg-[#115414] flex items-center rounded-xl h-min-56 md:h-auto md:col-span-4">
+                    <div class=" p-10 space-y-4 md:space-y-9 ">
+                        <img src="c2-assets/dawat-logo.png" alt="logo" class="pb-2">
+                        <button class="bg-[#63B76D] text-white px-4 py-3 mt-4 rounded-lg">Cook Exotic Dishes</button>
                         <h1 class="text-4xl text-white">Up To <span class="font-bold">20% OFF</span></h1>
                     </div>
                     <div class="flex items-center">
-                        <img src="c2-assets/dawat-mock-up.png" alt="rice packet" class="p-9 ">
+                        <img src="c2-assets/dawat-mock-up.png" alt="rice packet" class="p-3 ">
                     </div>
                     
                 </div>
-                <div class="flex bg-[#102861] rounded-xl w-3/4">
-                    <div class="p-10 space-y-9">
+                <div class="flex bg-[#102861] rounded-xl h-min-56 md:h-auto md:col-span-3">
+                    <div class="p-10 space-y-4 md:space-y-9">
                         <img src="c2-assets/india-gate-logo.png" alt="logo">
-                        <button class="bg-[#2A4D97] text-white px-8 py-3">World’s No.1 Rice</button>
+                        <button class="bg-[#2A4D97] text-white px-8 py-3 rounded-lg">World’s No.1 Rice</button>
                         <h1 class="text-4xl text-white">Up To <span class="font-bold">20% OFF</span></h1>
                     </div>
                     <div class="flex items-center">
@@ -318,6 +318,28 @@
                 </div>
 
             </div>
+        </section>'
+        
+        <!-- get grocery news -->
+        <section class="my-24 px-7 lg:px-32 ">
+            <div class="hero bg-base-200 rounded-xl w-full lg:p-14">
+                <div class="hero-content w-full flex-col lg:flex-row justify-center items-center pt-6 gap-3 lg:gap-10">
+                  <img
+                    src="c2-assets/vegetable-busket.png"
+                    class="max-w-sm rounded-lg  " />
+                  <div class="flex flex-col justify-center md:justify-start text-center lg:text-start">
+                    <h1 class="text-5xl font-bold">Get Grocery News!</h1>
+                    <p class="py-6">
+                        Exclusive training tips, ticks, product deals and more.
+                    </p>
+                    <form action="">
+                        <input type="text" placeholder="Enter email...." class="bg-white rounded-md py-3 my-3 mb-7 placeholder:pl-3 w-full">
+                    </form>
+                    <button class="btn btn-primary bg-[#179800] text-white w-2/5 border-none">Subscribe</button>
+                  </div>
+                </div>
+              </div>
+
         </section>
 
 
